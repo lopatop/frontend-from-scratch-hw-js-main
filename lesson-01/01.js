@@ -5,9 +5,9 @@
 
 let stepNumber = 1;
 let sumNumber = 0;
-let sum = sumNumber;
 while (stepNumber<=20) {
     sumNumber = sumNumber+stepNumber;
     stepNumber++
     document.write(sumNumber, '<br>')
 }
+let sum = sumNumber;
