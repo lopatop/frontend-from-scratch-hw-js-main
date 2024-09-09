@@ -6,4 +6,13 @@
 */
 
 // your code
-let factorial
+
+        let number = 1;
+        let numberCorrect = 1;
+        while (numberCorrect <= 10) {
+            number = number * numberCorrect
+            numberCorrect++
+            //   document.write(number, "<br>");
+        }
+        let factorial = number;
+        document.write(factorial);
