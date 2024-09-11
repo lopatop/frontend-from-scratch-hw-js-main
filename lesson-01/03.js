@@ -11,7 +11,6 @@ while (numberOdd <= 20) {
     if (numberOdd % 2 !== 0)
         numberSum = numberSum + numberOdd;
     numberOdd++;
-    document.write(numberSum, '<br>');
 }
-let sum = numerSum; 
+let sum = numberSum; 
 document.write(sum);
