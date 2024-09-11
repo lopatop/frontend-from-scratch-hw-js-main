@@ -5,4 +5,13 @@
 */
 
 // your code
-let sum
+let numberOdd = 1;
+let numberSum = 0;
+while (numberOdd <= 20) {
+    if (numberOdd % 2 !== 0)
+        numberSum = numberSum + numberOdd;
+    numberOdd++;
+    document.write(numberSum, '<br>');
+}
+let sum = numerSum; 
+document.write(sum);
