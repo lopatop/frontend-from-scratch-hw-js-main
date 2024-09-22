@@ -3,9 +3,9 @@
 const number1 = +prompt('number1');
 const number2 = +prompt('number2');
 
-function calcAverage(a, b) {
+function calculateAverage(a, b) {
     return (a + b) / 2;
 }
-let result = calcAverage(number1, number2);
+let result = calculateAverage(number1, number2);
 console.log(result);
 
