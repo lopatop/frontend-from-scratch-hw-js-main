@@ -15,6 +15,9 @@
 let str = prompt("Строка, символы которой нужно удвоить");
 
 function doubleEachCharacter(str) {
+    if (str === null || str === undefined) {
+        result = ""
+    }
     let result = "";
     for (let i = 0; i < str.length; i++) {
         result += str[i] + str[i];
@@ -23,4 +26,5 @@ function doubleEachCharacter(str) {
 }
 
 console.log(doubleEachCharacter(str));
+
 
