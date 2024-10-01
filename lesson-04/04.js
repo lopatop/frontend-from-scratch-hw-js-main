@@ -12,4 +12,15 @@
 Пример работы функции: `doubleEachCharacter('hello')` вернёт `'hheelllloo'`
 */
 
-function doubleEachCharacter() {}
+let str = prompt("Строка, символы которой нужно удвоить");
+
+function doubleEachCharacter(str) {
+    let result = "";
+    for (let i = 0; i < str.length; i++) {
+        result += str[i] + str[i];
+    }
+    return result;
+}
+
+console.log(doubleEachCharacter(str));
+
