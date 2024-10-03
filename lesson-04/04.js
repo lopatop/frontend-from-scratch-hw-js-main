@@ -17,7 +17,8 @@ let str = prompt("Строка, символы которой нужно удв�
 function doubleEachCharacter(str) {
     let result = "";
     if (str === null || str === undefined) {
-    } result = "";
+        return ""; 
+    } 
     for (let i = 0; i < str.length; i++) {
         result += str[i] + str[i];
     }
