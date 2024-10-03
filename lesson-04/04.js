@@ -15,10 +15,10 @@
 let str = prompt("Строка, символы которой нужно удвоить");
 
 function doubleEachCharacter(str) {
-    let result = "";
     if (str === null || str === undefined) {
         return ""; 
     } 
+    let result = "";
     for (let i = 0; i < str.length; i++) {
         result += str[i] + str[i];
     }
