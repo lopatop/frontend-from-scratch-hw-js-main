@@ -22,3 +22,12 @@ const prevButton = document.getElementById ('prev-button');
 const nextButton = document.getElementById ('next-button');
 const img = document.getElementById ('web-tech-image');
 
+
+
+nextButton.addEventListener('click', function(){
+  
+})
+
+prevButton.addEventListener('click', function(){
+
+})
