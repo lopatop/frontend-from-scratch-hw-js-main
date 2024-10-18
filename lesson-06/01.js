@@ -31,9 +31,15 @@ nextButton.addEventListener('click', function () {
     i = 0;
   }
   img.src = WEB_TECH_IMAGES[i];
-  
+
 })
 
 prevButton.addEventListener('click', function () {
+  i--;
 
+  if (i < 0) {
+    i = WEB_TECH_IMAGES.length - 1;
+  }
+  img.src = WEB_TECH_IMAGES[i];
 })
+
