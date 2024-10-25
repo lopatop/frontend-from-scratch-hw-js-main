@@ -8,5 +8,8 @@
 
 function capitalizeWords(string) {
   let stringUpper = '';
-  
+  for (let i = 0; i < string.length; i++) {
+   
+  }
+  return stringUpper;
 }
