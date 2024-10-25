@@ -12,7 +12,7 @@
 Пример работы функции: `doubleEachCharacter('hello')` вернёт `'hheelllloo'`
 */
 
-// let str = prompt("Строка, символы которой нужно удвоить");
+let str = prompt("Строка, символы которой нужно удвоить");
 
 function doubleEachCharacter(str) {
     if (str === null || str === undefined) {
