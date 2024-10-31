@@ -19,7 +19,7 @@ if (score <= 49 && score > 0) {
     grade = 'A'
 }
     else {
-        console.log('Введите число от 0 до 100');
+        // console.log('Введите число от 0 до 100');
     }
 if (grade){
     document.write(grade);

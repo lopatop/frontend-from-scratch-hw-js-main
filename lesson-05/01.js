@@ -19,7 +19,7 @@ const game = {
     if (this.resources[resource] !== undefined) {
       this.resources[resource] += amount;
     } else {
-      console.log("Invalid resource");
+      // console.log("Invalid resource");
 
     }
   }
